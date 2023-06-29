@@ -1,0 +1,46 @@
+1. Title: EPL (with Sports/Entertainment context)
+
+2. Sources
+   https://fbref.com/en/comps/9/Premier-League-Stats
+   
+
+3. Relevant Information:
+	EPL is assembled dataset of one of the most watched football league (English Premiere League). dataset have over 3800 matches i.e last 5 seasosns data. This tabular dataset consists of listings of all the matches played from the season2018-2019 to 2022-2023, along with details such as - team name , oppenent name , goals scored, shot on target , attendance, etc.
+
+4. Number of Instances: 3800 for netflix_titles.csv
+
+5. Number of Attributes: 27 output attribute.
+
+6. Attribute information:
+
+   Input variables:
+   
+1.date: The date of the match.
+2.time: The time of the match.
+3.comp: The competition name.
+4.round: The round of the competition.
+5.day: The day of the week when the match took place.
+6.venue: The venue where the match was held.
+7.result: The result of the match.  (Target variable)  (Use 1 for the win and 0 for lose or draw)
+8.gf: The number of goals scored by the team.
+9.ga: The number of goals conceded by the team.
+10.opponent: The name of the opposing team.
+11.xg: Expected goals for the team.
+12.xga: Expected goals against the team.
+13.poss: Possession percentage of the team.
+14.attendance: The number of spectators in the match.
+15.captain: The captain of the team.
+16.formation: The tactical formation used by the team.
+17.referee: The name of the referee officiating the match.
+18.match report: Information or link to the match report.
+19.notes: No non-null values exist in this column.
+20.sh: The number of shots taken by the team.
+21.sot: The number of shots on target by the team.
+22.dist: The average distance of the team's shots.
+23.fk: The number of free kicks taken by the team.
+24.pk: The number of penalties scored by the team.
+25.pkatt: The number of penalty attempts by the team.
+26.season: The season in which the match occurred.
+27.team: The name of the team.
+
+7. Missing Attribute Values: There are several missing values in some categorical attributes, all coded with the "NAN" label. These missing values can be treated as a possible class label or using deletion or imputation techniques. 
